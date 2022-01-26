@@ -1,0 +1,38 @@
+/* Importando fonte do GOOGLE */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins")
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+}
+.tabela {
+    height: 120px;
+    min-width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    border-radius: 12px;
+}
+.tabela span {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+}
+.tabela span.num {
+    font-size: 50px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-right: 2px solid rgba(0,0,0,0.2);
+}
